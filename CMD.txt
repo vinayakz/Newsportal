@@ -1,0 +1,23 @@
+pwd:- check the current dir 
+ls :- DIR to show the folders and files 
+cd :- change the dir
+git clone :- git clone [url]  
+			This command is used to obtain a repository from an existing URL.
+
+git add :- git add [file]  
+			This command adds a file to the staging area.			
+git commit :- git commit -m “[ Type in the commit message]”
+			This command records or snapshots the file permanently in the version history.			
+
+git config :- git config --global user.name ""
+			  git config --global user.email ""
+git remote :- git remote add [variable name] [Remote Server Link]  
+git remote :- -v check we can fetch or push 
+
+git add :- git add [file]
+		   This command adds a file to the staging area
+		   you can use (add .) this add all file 			  
+git commit:- git commit -m ""
+
+git push:- git push [variable name] master  
+			

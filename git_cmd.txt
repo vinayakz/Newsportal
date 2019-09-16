@@ -1,0 +1,77 @@
+
+vinoo@DESKTOP-L3QDQDR MINGW64 ~ (master)
+
+
+vinoo@DESKTOP-L3QDQDR MINGW64 ~ (master)
+$ pwd
+/c/Users/vinoo
+
+vinoo@DESKTOP-L3QDQDR MINGW64 ~ (master)
+$ cd\
+> I:\github
+bash: cdI:github: command not found
+
+vinoo@DESKTOP-L3QDQDR MINGW64 ~ (master)
+$ cd I:\github
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github
+$ pwd
+/i/github
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github
+$ git clone https://github.com/vinayakz/Newsportal.git
+Cloning into 'Newsportal'...
+warning: You appear to have cloned an empty repository.
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github
+$ ls
+Newsportal/
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github
+$ cd "I:\github\Newsportal"
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ ls
+newsportal.zip
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git config --global user.name "vinayak"
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git config --global user.email "vinoo160496@gmail.com"
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git init
+Reinitialized existing Git repository in I:/github/Newsportal/.git/
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git remote add origin https://github.com/vinayakz/Newsportal.git
+fatal: remote origin already exists.
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git remote -v
+origin  https://github.com/vinayakz/Newsportal.git (fetch)
+origin  https://github.com/vinayakz/Newsportal.git (push)
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git add .
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git commit -m "upload via GitBash"
+[master (root-commit) 1369cb0] upload via GitBash
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 newsportal.zip
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+vinoo@DESKTOP-L3QDQDR MINGW64 /i/github/Newsportal (master)
+$ git push origin master
